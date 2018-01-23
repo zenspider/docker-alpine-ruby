@@ -1,1 +1,1 @@
-export PATH=$PATH:/usr/lib/ruby/gems/2.0.0/bin
+export PATH=$PATH:/usr/lib/ruby/gems/3.4.0/bin
