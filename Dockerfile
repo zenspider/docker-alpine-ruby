@@ -4,6 +4,8 @@ RUN apk --update add \
   ca-certificates \
   ruby \
   ruby-bundler \
+  ruby-rake \
+  ruby-minitest \
   ruby-dev && \
   rm -fr /usr/share/ri
 
