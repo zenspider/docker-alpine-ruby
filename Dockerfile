@@ -6,7 +6,9 @@ RUN apk --update add \
   ruby-bundler \
   ruby-rake \
   ruby-minitest \
-  ruby-dev && \
+  ruby-dev \
+  git \
+  && \
   rm -fr /usr/share/ri
 
 # Ensure we get v1.0.2h
